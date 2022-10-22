@@ -1,0 +1,79 @@
+.container{
+  display: flex;
+}
+
+.container div {
+  flex: 1;
+}
+.containertext{
+  display: flex;
+}
+
+.containertext{
+  flex: 1;
+}
+
+#heading {
+  border: 7px solid black ;
+  border-top: none;
+  text-align: center;
+  padding: 1px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 100px;
+  }
+
+  #pic1 {
+      background-image: url(../../week4/img/pic1.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 140px;
+      margin: 20;
+      margin-left: 20px;
+  }
+
+  #pic2 {
+      background-image: url(../../week4/img/pic2.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      margin-left: 20px;
+      height: 140px;
+      margin: 20;
+    }
+
+    #pic3 {
+      background-image: url(../../week4/img/pic3.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      margin-left: 20px;
+      height: 140px;
+      margin: 20;
+    }
+
+    #text{
+      font-size: large;
+      text-align: center;
+      margin-left: 95px;
+    }
+    #text2{
+      font-size: large;
+      text-align: center;
+      margin-left: 170px;
+    }
+    #text3{
+      font-size: large;
+      text-align: center;
+      margin-left: 175px;
+    }
+
+h1{
+  font-size: 50px;
+  font-family: 'Questrial', sans-serif;
+}
+
+h2{
+  font-family: 'Merriweather Sans', sans-serif;
+}
