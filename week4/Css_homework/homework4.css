@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+}
+
+.container div{
+    flex: 1;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+
+#div1{
+    margin: 50px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-radius: 3px solid white;
+    padding: 80px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#pic5{
+    background-image: url(../../week4/img/pic5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-right: 2px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-position: center;
+    height: 300px;
+    padding: 80px;
+    margin-right: 50px;
+}
