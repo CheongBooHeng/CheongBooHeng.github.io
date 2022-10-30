@@ -34,7 +34,7 @@
   }
 
   #pic3 {
-      background-image: url(../img/whitegirl.jpg);
+      background-image: url(../img/girl.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
@@ -44,7 +44,7 @@
     }
 
     #pic4 {
-      background-image: url(../img/whiteboy.jpg);
+      background-image: url(../img/boy.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
