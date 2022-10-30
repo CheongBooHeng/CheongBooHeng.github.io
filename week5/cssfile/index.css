@@ -58,12 +58,15 @@
 /* Row */
 .row {
     display: flex;
+    justify-content: center;
 }
 .row2{
     display: flex;
+    justify-content: center;
 }
 .row3{
     display: flex;
+    justify-content: center;
 }
 .footer{
     display: flex;
@@ -75,20 +78,26 @@
 /* Column */
 .column {
     width: 33.33%;
+    justify-content: center;
+    text-align: center;
 }
 
 #column1 {
     width: 41%;
+    justify-content: center;
+    text-align: center;
 }
 
 .column2{
-    width: 50%;
+    width: 100%;
     text-align: center;
+    justify-content: center;
 }
 
 .column3{
     width: 100%;
     text-align: center;
+    justify-content: center;
 }
 
 
@@ -102,22 +111,25 @@
     .column {
         width: 100%;
     }
+    #column1 {
+        width: 100%;
 }
 
 @media screen and (max-width: 768px) {
     .row2 {
-      flex-wrap: wrap;
+        flex-direction: column;
     }
     .column2 {
-      width: 50%;
+      width: 100%;
     }
   }
 
   @media screen and (max-width: 480px) {
     .row3{
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .column3 {
       width: 100%;
     }
   }
+}
