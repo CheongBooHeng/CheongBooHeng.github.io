@@ -24,8 +24,8 @@ body{
     margin-top: 100px;
     }
   
-    #pic6 {
-        background-image: url(../../week4/img/pic6.png);
+    #pic7 {
+        background-image: url(../img/silent.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -35,8 +35,8 @@ body{
         margin-right: 40px;
     }
   
-    #pic7 {
-        background-image: url(../../week4/img/pic7.png);
+    #pic8 {
+        background-image: url(../img/couples.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -47,8 +47,8 @@ body{
         margin-right: 40px;
       }
   
-      #pic8 {
-        background-image: url(../../week4/img/pic8.png);
+      #pic9 {
+        background-image: url(../img/longhairboy.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;

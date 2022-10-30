@@ -1,0 +1,111 @@
+#container {
+    background-color: #f1f1f1;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.header {
+    border: 3px solid black;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+#name1 {
+    margin-top: 3px;
+}
+
+.topnav {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navlink {
+    display: flex;
+    align-items: center;
+}
+
+#navlink a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navlink a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#social {
+    display: flex;
+}
+
+/* Row */
+.row {
+    display: flex;
+}
+.row2{
+    display: flex;
+}
+.row3{
+    display: flex;
+}
+
+/* Column */
+.column {
+    width: 33.33%;
+}
+
+#column1 {
+    width: 25%;
+}
+
+.column2{
+    width: 50%;
+}
+
+.column3{
+    width: 100%;
+}
+
+
+
+/* Responsive layout - makes the three */
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column2 {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column3 {
+      width: 100%;
+    }
+  }
+  
+  

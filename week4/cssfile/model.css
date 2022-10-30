@@ -13,7 +13,7 @@ body{
     border: 5px solid black;
     padding: 50px;
     background-size: 100% 100%;
-    background-image: url(../img/3.jfif);
+    background-image: url(../img/bear.jpg);
     background-repeat: no-repeat;
     background-position: center;
     color: aliceblue;
@@ -24,7 +24,7 @@ body{
     border: 5px solid black;
     padding: 50px;
     background-size: 30px;
-    background-image: url(../img/2.jpg);
+    background-image: url(../img/galaxy.jpg);
     color: aliceblue;
     background-repeat: repeat;
 }
