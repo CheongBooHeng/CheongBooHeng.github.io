@@ -377,3 +377,342 @@ a {
     left: 38%;
 }
 
+/* container 4 */
+.container4 {
+    position: relative;
+    margin: auto;
+    max-width: 1400px;
+    height: 550px;
+    background-color: #e6e6ff;
+}
+
+#pricing {
+    position: absolute;
+    top: 0;
+    left: 625px;
+    font-size: 15px;
+    padding: 20px;
+    margin-bottom: 0%;
+    color: #5050c1;
+}
+
+#prices {
+    position: absolute;
+    top: 70px;
+    left: 560px;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.box7 {
+    position: absolute;
+    top: 180px;
+    left: 160px;
+    height: 320px;
+    width: 310px;
+    box-shadow: 0px 8px 15px rgba(48, 47, 47, 0.1);
+    border-radius: 12px;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.boxtext {
+    position: absolute;
+    top: 33%;
+}
+
+#gold {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    font-size: 30px;
+}
+
+#lorem {
+    position: absolute;
+    top: 28%;
+    left: 36px;
+}
+
+#price {
+    position: absolute;
+    top: 55%;
+    left: 110px;
+    font-size: 30px;
+    color: blue;
+}
+
+.see4 {
+    position: absolute;
+    bottom: 15px;
+    left: 80px;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    width: 100px;
+    height: 3px;
+}
+
+#seebg7 {
+    position: absolute;
+    bottom: -8px;
+    right: 17px;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.box8 {
+    position: absolute;
+    top: 180px;
+    left: 520px;
+    height: 320px;
+    width: 310px;
+    box-shadow: 0px 8px 15px rgba(48, 47, 47, 0.1);
+    border-radius: 12px;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.boxtext {
+    position: absolute;
+    top: 33%;
+}
+
+#plat {
+    position: absolute;
+    top: 0;
+    left: 11%;
+    font-size: 30px;
+}
+
+#lorem1 {
+    position: absolute;
+    top: 28%;
+    left: 36px;
+}
+
+#price1 {
+    position: absolute;
+    top: 55%;
+    left: 130px;
+    font-size: 30px;
+    color: blue;
+}
+
+.see3 {
+    position: absolute;
+    bottom: 4px;
+    right: 90px;
+    color: black;
+    padding: 10px;
+}
+
+#seebg8 {
+    position: absolute;
+    bottom: 9px;
+    right: 25px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.box9 {
+    position: absolute;
+    top: 180px;
+    left: 880px;
+    height: 320px;
+    width: 310px;
+    box-shadow: 0px 8px 15px rgba(48, 47, 47, 0.1);
+    border-radius: 12px;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.boxtext {
+    position: absolute;
+    top: 33%;
+}
+
+#silver {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    font-size: 30px;
+}
+
+#lorem2 {
+    position: absolute;
+    top: 28%;
+    left: 36px;
+}
+
+#price2 {
+    position: absolute;
+    top: 55%;
+    left: 110px;
+    font-size: 30px;
+    color: blue;
+}
+
+.see4 {
+    position: absolute;
+    bottom: 15px;
+    right: 90px;
+    color: black;
+    padding: 10px;
+}
+
+#seebg9 {
+    position: absolute;
+    bottom: -8px;
+    right: 17px;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+/* container 5 */
+.container5 {
+    position: relative;
+    margin: auto;
+    max-width: 1400px;
+    height: 300px;
+}
+
+#news {
+    position: absolute;
+    top: 40px;
+    left: 620px;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 0%;
+    color: #5050c1;
+}
+
+#special {
+    position: absolute;
+    top: 110px;
+    left: 410px;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+input {
+    position: absolute;
+    top: 200px;
+    left: 360px;
+    width: 400px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 1px solid gray;
+    margin-right: 20px;
+    opacity: 0.3;
+}
+
+.subscribe{
+    position: absolute;
+    top: 200px;
+    left: 840px;
+}
+
+#subs{
+    position: absolute;
+    bottom: 10px;
+    right: 37px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+/* container 6 */
+.container6 {
+    position: relative;
+    margin: auto;
+    max-width: 1024px;
+
+}
+
+#textlogo{
+    position: absolute;
+    top: 230px;
+    left: 135px;
+    font-size: 30px;
+    color: white;
+}
+
+#textstay{
+    position: absolute;
+    top: 280px;
+    left: 80px;
+    font-size: 30px;
+    color: white;
+}
+
+.bar{
+    position: absolute;
+    display: flex;
+    top: 360px;
+    left: 80px;
+    gap: 30px;
+}
+
+#quick{
+    color: white;
+    font-size: 20px;
+}
+
+.links{
+    display: grid;
+    gap: 15px;
+    position: absolute;
+    top: 220px;
+    left: 350px;
+}
+
+#hours{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.time{
+    position: absolute;
+    top: 220px;
+    left: 550px;
+    color: white;
+    gap: 30px;
+}
+
+.contact{
+    position: absolute;
+    top: 215px;
+    left: 770px;
+}
+
+#contact{
+    color: white;
+}
+
+#envelope{
+    margin-top: 25px;
+}
+
+#map{
+    margin-top: 25px;
+}
+
+.botbg{
+    position: absolute;
+    top: 65px;
+    left: -120px;
+}
+
+.botbg1{
+    position: absolute;
+    top: 60px;
+    left: -120px;
+}
