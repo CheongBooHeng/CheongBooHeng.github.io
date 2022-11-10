@@ -1,0 +1,34 @@
+.container{
+    margin: auto;
+    width: 600px;
+    background-color: rgb(163, 255, 224);
+    
+}
+
+.container2{
+    display: flex;
+}
+
+.button{
+    text-align: center;
+}
+
+.name input{
+    width: 250px;
+    height: 35px;
+}
+
+.mail input{
+    width: 250px;
+    height: 35px;
+}
+
+.address input{
+    width: 250px;
+    height: 30px;
+}
+
+.select option{
+    width: 250px;
+    height: 30px;
+}

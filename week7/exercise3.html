@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 3</title>
+    <link rel="stylesheet" type="text/css" href="exercise3.css">
+</head>
+
+<body>
+    <div class="container">
+        <form name="myForm" action="form_submit.html">
+            <fieldset>
+                <legend>Personal information:</legend>
+                <h3>Name</h3>
+                <div class="name">
+                    <input type="text" name="firstname" placeholder="First">
+                    <input type="text" name="lastname" placeholder="Last"><br><br>
+                </div>
+
+                <h3>Email</h3>
+                <div class="mail">
+                    <input type="email" name="mail" placeholder="">
+                    <input type="tel" name="number" placeholder="### ### ####">
+                </div>
+                <h3>Gender</h3>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+
+                <h3>Former Address</h3>
+                <div class="address">
+                    <input type="text" name="address" placeholder="Street Address"><br><br>
+                    <input type="text" name="address2" placeholder="Street Address Line 2"><br><br>
+                    <input type="text" name="city" placeholder="City">
+                    <input type="text" name="region" placeholder="Region"><br><br>
+                    <input type="text" name="pos" placeholder="Postal / Zip Code">
+                    <select name="country">
+                        <option value="country">Malaysia</option>
+                    </select>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Send">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
