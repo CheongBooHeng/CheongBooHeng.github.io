@@ -11,10 +11,16 @@
 
 .button{
     text-align: center;
+    margin-top: 20px;
 }
 
 .name input{
     width: 250px;
+    height: 35px;
+}
+
+.address select{
+    width: 258px;
     height: 35px;
 }
 
@@ -23,7 +29,8 @@
     height: 35px;
 }
 
-.address input{
+
+.street1 {
     width: 250px;
     height: 30px;
 }
@@ -31,4 +38,36 @@
 .select option{
     width: 250px;
     height: 30px;
+}
+
+.row2{
+    display: flex;
+    
+}
+
+.row2 div{
+    width: 46.5%;
+}
+
+.street{
+    width: 90%;
+    height: 30px;
+}
+
+.send{
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+}
+
+h3{
+    color: rgb(1, 173, 1);
+}
+
+legend{
+    color: green;
+    font-size: 30px;
 }
