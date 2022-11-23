@@ -1,0 +1,524 @@
+body {
+    margin: 0;
+}
+
+/* --------------------------------------- */
+.container1 {
+    position: relative;
+    width: 1024px;
+    height: 577px;
+    background-color: #222831;
+    margin: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 14px;
+    left: 100px;
+}
+
+.topnav {
+    position: absolute;
+    top: 65px;
+    left: 340px;
+    display: flex;
+    gap: 60px;
+    font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#name {
+    position: absolute;
+    font-size: 20px;
+    left: 120px;
+    top: 250px;
+    color: #EF6D58;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#personal {
+    position: absolute;
+    font-size: 45px;
+    left: 120px;
+    top: 260px;
+    color: white;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#website {
+    position: absolute;
+    font-size: 60px;
+    left: 120px;
+    top: 290px;
+    color: white;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#newbies {
+    color: rgba(255, 255, 255, 0.64);
+    position: absolute;
+    left: 120px;
+    top: 370px;
+    font-size: 35px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.photo {
+    position: absolute;
+    top: 200px;
+    left: 620px;
+}
+
+.photo img {
+    border-radius: 204px;
+}
+
+/* --------------------------------------- */
+.container2 {
+    position: relative;
+    width: 1024px;
+    height: 610px;
+    margin: auto;
+    background-color: #FDF0E9;
+    margin-top: -15px;
+}
+
+#about {
+    position: absolute;
+    top: 40px;
+    left: 480px;
+    font-size: 16px;
+    color: #EF6D58;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#hobby {
+    position: absolute;
+    top: 40px;
+    left: 390px;
+    font-size: 60px;
+    color: #5C2000;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.see {
+    position: absolute;
+    font-size: 20px;
+    top: 112px;
+    left: 770px;
+}
+
+.see a {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.image{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 210px;
+    left: 40px;
+}
+
+.image img {
+    border-radius: 20px;
+}
+
+/* --------------------------------------- */
+.container3 {
+    position: relative;
+    width: 1024px;
+    height: 600px;
+    margin: auto;
+    background-color: #28293E;
+    margin-top: -15px;
+}
+
+#homework {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    color: #EF6D58;
+    font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#weekly {
+    position: absolute;
+    font-size: 50px;
+    top: 40px;
+    left: 100px;
+    color: white;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.see1 {
+    position: absolute;
+    font-size: 20px;
+    top: 90px;
+    left: 770px;
+}
+
+.see1 a {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    font-family: 'Epilogue', sans-serif;
+
+}
+
+.image1{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 160px;
+    left: 40px;
+}
+
+.image1 img {
+    border-radius: 20px;
+}
+
+/* --------------------------------------- */
+.container4 {
+    position: relative;
+    width: 1024px;
+    height: 930px;
+    margin: auto;
+    background-color: #FDF0E9;
+    margin-top: -15px;
+}
+
+#favourite {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    color: #EF6D58;
+    font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#player {
+    position: absolute;
+    font-size: 56px;
+    top: 40px;
+    left: 100px;
+    color: #EF6D58;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#lee {
+    position: absolute;
+    top: 210px;
+    left: 40px;
+}
+
+#net {
+    position: absolute;
+    top: 210px;
+    right: 40px;
+}
+
+#lee1 {
+    position: absolute;
+    top: 580px;
+    left: 40px;
+}
+
+.image2 img {
+    border-radius: 20px;
+}
+
+#datuk {
+    position: absolute;
+    top: 580px;
+    right: 60px;
+    font-size: 50px;
+    text-align: center;
+    color: #EF6D58;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.see2 {
+    position: absolute;
+    font-size: 20px;
+    top: 750px;
+    right: 160px;
+}
+
+.see2 a {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+/* --------------------------------------- */
+.container5 {
+    position: relative;
+    width: 1024px;
+    height: 600px;
+    margin: auto;
+    background-color: #28293E;
+    margin-top: -15px;
+}
+
+.form {
+    position: absolute;
+    left: 120px;
+    top: 130px;
+    width: 310px;
+    height: 320px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+}
+
+.form input{
+    width: 300px;
+    height: 35px;
+}
+
+.form select{
+    width: 308px;
+    height: 40px;
+}
+
+.message{
+    margin-top: 20px;
+}
+
+.message ::placeholder{
+    position: absolute;
+    top: 7px;
+    left: 2px;
+}
+
+.message input{
+    height: 80px;
+}
+
+.submit {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 157px;
+}
+
+.submit a {
+    color: white;
+    background-color: #EF6D58;
+    border: none;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#contact{
+    position: absolute;
+    top: 150px;
+    right: 364px;
+    font-size: 16px;
+    color: #EF6D58;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#contacts{
+    position: absolute;
+    top: 160px;
+    right: 200px;
+    color: white;
+    font-size: 56px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.text{
+    margin-top: -8px;
+    color: white;
+    padding: 20px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.map{
+    position: absolute;
+    top: 300px;
+    right: 125px;
+    display: flex;
+    height: 30px;
+}
+
+.map img{
+    background-color: #EF6D58;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.handphone{
+    position: absolute;
+    top: 370px;
+    right: 240px;
+    display: flex;
+    height: 30px;
+}
+
+.handphone img{
+    background-color: #EF6D58;
+    border-radius: 50%; 
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.mail{
+    position: absolute;
+    top: 440px;
+    right: 42px;
+    display: flex;
+    height: 30px;
+}
+
+.mail img{
+    background-color: #EF6D58;
+    border-radius: 50%; 
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+/* --------------------------------------- */
+.container6{
+    position: relative;
+    width: 1024px;
+    height: 450px;
+    margin: auto;
+    background-color: #FDF0E9;
+    margin-top: -15px;
+ 
+}
+
+.cover{
+    height: 270px;
+    width: 850px;
+    border-bottom: 1px solid black;
+    margin-left: 86px;
+}
+
+.botlogo{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+#menu{
+    position: absolute;
+    top: 80px;
+    left: 330px;
+    color: #EF6D58;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.botnav {
+    position: absolute;
+    top: 140px;
+    left: 330px;
+    display: flex;
+    gap: 60px;
+    font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.botnav a {
+    text-decoration: none;
+    color: black;
+}
+
+.botnav2 {
+    position: absolute;
+    top: 190px;
+    left: 330px;
+    display: flex;
+    gap: 60px;
+    font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.botnav2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.social{
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    top: 150px;
+    right: 90px;
+}
+
+.social img{
+    background-color: #EF6D58;
+    border-radius: 50%; 
+    padding: 10px;
+}
+
+#line{
+    position: absolute;
+    left: 100px;
+    top: 230px;
+}
+
+.copy{
+    position: absolute;
+    top: 300px;
+    left: 86px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.term{
+    position: absolute;
+    top: 300px;
+    right: 90px;
+    display: flex;
+    gap: 50px;
+    font-family: 'Epilogue', sans-serif;
+}
