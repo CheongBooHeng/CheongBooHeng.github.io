@@ -25,6 +25,7 @@ body {
 
 .headlogo a{
     text-decoration: none;
+    color: #222831;
 }
 
 .topnav {
@@ -506,8 +507,16 @@ body {
 
 .botlogo {
     position: absolute;
-    top: 80px;
+    top: 85px;
     left: 100px;
+    background-color: white;
+    border-radius: 48%;
+    padding: 10px;
+}
+
+.botlogo a{
+    text-decoration: none;
+    color: #222831;
 }
 
 #menu {
