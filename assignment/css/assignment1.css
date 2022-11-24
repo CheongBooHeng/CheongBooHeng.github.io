@@ -13,10 +13,18 @@ body {
     display: block;
 }
 
-.logo {
+.headlogo {
     position: absolute;
-    top: 14px;
-    left: 100px;
+    top: 65px;
+    left: 120px;
+    font-size: 20px;
+    background-color: #ddd;
+    border-radius: 48%;
+    padding: 10px;
+}
+
+.headlogo a{
+    text-decoration: none;
 }
 
 .topnav {
