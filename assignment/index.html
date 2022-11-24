@@ -2,10 +2,11 @@
 <html>
 
 <head>
-    <title>Assignment</title>
+    <title>Cheong Boo Heng</title>
     <link rel="stylesheet" type="text/css" href="css/assignment1.css">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/28020802b5.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 </html>
@@ -15,13 +16,16 @@
         <div class="logo">
             <img src="img/badminton.png" alt="" width="128px" height="128px">
         </div>
-        <div class="topnav">
-            <a href="#">Home</a>
-            <a href="#">About me</a>
-            <a href="#">Homework</a>
-            <a href="#">Favourite</a>
-            <a href="#">Contact</a>
-        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">About me</a>
+            <a href="#contact">Homework</a>
+            <a href="#about">Favourite</a>
+            <a href="#about">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+          </div>
         <div class="text">
             <p id="name">CHEONG BOO HENG</p>
             <h2 id="personal">PERSONAL</h2>
@@ -31,6 +35,16 @@
                 <img src="img/personal.jpeg" alt="" width="288px" height="292px">
             </div>
         </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
     </div>
 
     <div class="container2">

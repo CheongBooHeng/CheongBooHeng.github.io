@@ -9,6 +9,8 @@ body {
     height: 577px;
     background-color: #222831;
     margin: auto;
+    display: flex;
+    display: block;
 }
 
 .logo {
@@ -20,17 +22,17 @@ body {
 .topnav {
     position: absolute;
     top: 65px;
-    left: 340px;
+    left: 300px;
     display: flex;
-    gap: 60px;
-    font-size: 16px;
+    gap: 30px;
+    font-size: 14px;
     font-family: 'Epilogue', sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.text{
+    display: flex;
 }
+
 
 #name {
     position: absolute;
@@ -77,6 +79,53 @@ a {
 .photo img {
     border-radius: 204px;
 }
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 
 /* --------------------------------------- */
 .container2 {
@@ -128,7 +177,7 @@ a {
     font-family: 'Epilogue', sans-serif;
 }
 
-.image{
+.image {
     display: flex;
     gap: 30px;
     position: absolute;
@@ -191,7 +240,7 @@ a {
 
 }
 
-.image1{
+.image1 {
     display: flex;
     gap: 30px;
     position: absolute;
@@ -247,6 +296,10 @@ a {
     position: absolute;
     top: 580px;
     left: 40px;
+}
+
+.image2{
+    display: flex;
 }
 
 .image2 img {
@@ -307,27 +360,27 @@ a {
     padding: 30px;
 }
 
-.form input{
+.form input {
     width: 300px;
     height: 35px;
 }
 
-.form select{
+.form select {
     width: 308px;
     height: 40px;
 }
 
-.message{
+.message {
     margin-top: 20px;
 }
 
-.message ::placeholder{
+.message ::placeholder {
     position: absolute;
     top: 7px;
     left: 2px;
 }
 
-.message input{
+.message input {
     height: 80px;
 }
 
@@ -352,7 +405,7 @@ a {
     border-radius: 10px;
 }
 
-#contact{
+#contact {
     position: absolute;
     top: 150px;
     right: 364px;
@@ -361,7 +414,7 @@ a {
     font-family: 'Epilogue', sans-serif;
 }
 
-#contacts{
+#contacts {
     position: absolute;
     top: 160px;
     right: 200px;
@@ -370,14 +423,14 @@ a {
     font-family: 'Epilogue', sans-serif;
 }
 
-.text{
+.text {
     margin-top: -8px;
     color: white;
     padding: 20px;
     font-family: 'Epilogue', sans-serif;
 }
 
-.map{
+.map {
     position: absolute;
     top: 300px;
     right: 125px;
@@ -385,7 +438,7 @@ a {
     height: 30px;
 }
 
-.map img{
+.map img {
     background-color: #EF6D58;
     border-radius: 50%;
     width: 20px;
@@ -393,7 +446,7 @@ a {
     padding: 10px;
 }
 
-.handphone{
+.handphone {
     position: absolute;
     top: 370px;
     right: 240px;
@@ -401,15 +454,15 @@ a {
     height: 30px;
 }
 
-.handphone img{
+.handphone img {
     background-color: #EF6D58;
-    border-radius: 50%; 
+    border-radius: 50%;
     width: 20px;
     height: 20px;
     padding: 10px;
 }
 
-.mail{
+.mail {
     position: absolute;
     top: 440px;
     right: 42px;
@@ -417,39 +470,39 @@ a {
     height: 30px;
 }
 
-.mail img{
+.mail img {
     background-color: #EF6D58;
-    border-radius: 50%; 
+    border-radius: 50%;
     width: 20px;
     height: 20px;
     padding: 10px;
 }
 
 /* --------------------------------------- */
-.container6{
+.container6 {
     position: relative;
     width: 1024px;
     height: 450px;
     margin: auto;
     background-color: #FDF0E9;
     margin-top: -15px;
- 
+
 }
 
-.cover{
+.cover {
     height: 270px;
     width: 850px;
     border-bottom: 1px solid black;
     margin-left: 86px;
 }
 
-.botlogo{
+.botlogo {
     position: absolute;
     top: 80px;
     left: 100px;
 }
 
-#menu{
+#menu {
     position: absolute;
     top: 80px;
     left: 330px;
@@ -487,7 +540,7 @@ a {
     color: black;
 }
 
-.social{
+.social {
     position: absolute;
     display: flex;
     gap: 30px;
@@ -495,26 +548,26 @@ a {
     right: 90px;
 }
 
-.social img{
+.social img {
     background-color: #EF6D58;
-    border-radius: 50%; 
+    border-radius: 50%;
     padding: 10px;
 }
 
-#line{
+#line {
     position: absolute;
     left: 100px;
     top: 230px;
 }
 
-.copy{
+.copy {
     position: absolute;
     top: 300px;
     left: 86px;
     font-family: 'Epilogue', sans-serif;
 }
 
-.term{
+.term {
     position: absolute;
     top: 300px;
     right: 90px;
@@ -522,3 +575,32 @@ a {
     gap: 50px;
     font-family: 'Epilogue', sans-serif;
 }
+
+/* @media only screen and (max-width:600px) {
+    .image {
+        flex-direction: column;
+
+        height: 250px;
+        width: 250px;
+    }
+    .image1 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        order: 1;
+    }
+    .image2 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        order: 1;
+    }
+    #badminton{
+        width: 100%;
+        order: 1;
+    }
+    #football{
+        width: 100%;
+        order: 2;
+    }
+} */
