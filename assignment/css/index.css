@@ -231,7 +231,6 @@ h2 {
         display: block;
         flex-direction: column;
         order: 3;
-        margin-bottom: 50px;
         width: 95%;
         margin: auto;
     }
@@ -282,7 +281,6 @@ h2 {
 
 @media screen and (max-width: 700px) {
     .subtitle1 {
-
         flex-direction: column;
         order: 1;
     }
@@ -299,13 +297,23 @@ h2 {
     .image1 {
         display: block;
         flex-direction: column;
-        margin-bottom: 10px;
-        text-align: center;
-        justify-content: center;
-        order: 2;
-        width: 44%;
     }
 
+    #man{
+        display: block;
+        flex-direction: column;
+        order: 1;
+        margin: auto;
+        width: 95%;
+    }
+    #laptop{
+        display: block;
+        flex-direction: column;
+        order: 2;
+        margin: auto;
+        margin-top: 15px;
+        width: 95%;
+    }
 }
 
 .image1 {
@@ -408,7 +416,7 @@ h2 {
         flex-direction: column;
         order: 1;
         margin: auto;
-        width: 100%;
+        width: 95%;
     }
 
     #net {
@@ -417,7 +425,7 @@ h2 {
         order: 2;
         margin: auto;
         margin-top: 15px;
-        width: 100%;
+        width: 95%;
     }
 }
 
