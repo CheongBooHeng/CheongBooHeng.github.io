@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homework</title>
+    <link rel="stylesheet" type="text/css" href="css/homework.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/28020802b5.js" crossorigin="anonymous"></script>
+</head>
+
+</html>
+
+<body>
+    <div class="container1">
+        <div class="header">
+            <h2>CBH</h2>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#home">Home</a>
+            <a href="#news">About me</a>
+            <a href="#contact">Homework</a>
+            <a href="#about">Favourite</a>
+            <a href="#about">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </div>
+
+    <div class="container2">
+        <h1>Weekly Homework</h1>
+    </div>
+
+    <div class="container3">
+        <div class="image1">
+            <img src="img/desktop.jpg" alt="" width="95%">
+            <div class="submit">
+                <a href="#">WEEK 4</a>
+            </div>
+        </div>
+        <div class="image2">
+            <img src="img/code.jpg" alt="" width="95%">
+            <div class="submit">
+                <a href="#">WEEK 5</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container4">
+        <div class="image1">
+            <img src="img/apple.jpg" alt="" width="95%">
+            <div class="submit">
+                <a href="#">WEEK 6</a>
+            </div>
+        </div>
+        <div class="image2">
+            <img src="img/macbook.jpg" alt="" width="95%">
+            <div class="submit">
+                <a href="#">WEEK 7</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="column">
+            <p>CBH</p>
+            <a href="#">Home</a>
+            <a href="#">About me</a>
+            <a href="#">Homework</a>
+            <a href="#">Favourite</a>
+            <a href="#">Contact</a>
+            <div class="social">
+                <a href="#"><img src="img/footerfb.png" alt="" ></a>
+                <a href="#"><img src="img/footerig.png" alt="" ></a>
+            </div>
+        </div>
+        <div class="copy">
+            <p>Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+            <div class="term">
+                <p id="terms">Terms of Use &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</p>
+            </div>
+        </div>
+    </div>
+</body>
