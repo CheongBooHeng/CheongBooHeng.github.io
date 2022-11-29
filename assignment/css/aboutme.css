@@ -109,7 +109,7 @@ h2 {
     font-size: 36px;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.5s;
   }
   
   .overlay a:hover, .overlay a:focus {
@@ -134,19 +134,21 @@ h2 {
 
 /* -- */
 .container2{
-    background-color: #222831;
+    background-color: #0a0d11;
     color: white;
     text-align: center;
 }
 
 /* --- */
 .container3{
-    background-color: #FDF0E9;
+    background-color: #222831;
     padding: 4%;
     padding-top: 0;
+    color: white;
 }
 .title1{
     text-align: center;
+    font-size: 25px;
 }
 
 .image1{
@@ -188,7 +190,7 @@ h2 {
 
 /* ---- */
 .container4{
-    background-color: #222831;
+    background-color: #FDF0E9;
     padding: 4%;
 }
 
@@ -204,7 +206,7 @@ h2 {
 }
 
 .image2 p{
-    color: white;
+    color: black;
     padding-top: 9%;
 }
 
@@ -231,7 +233,7 @@ h2 {
 
 /* ----- */
 .container5{
-    background-color: #FDF0E9;
+    background-color: #222831;
     padding: 4%;
 }
 
@@ -248,6 +250,7 @@ h2 {
 
 .image3 p{
     padding-top: 9%;
+    color: white;
 }
 
 @media screen and (max-width: 700px){
@@ -268,7 +271,7 @@ h2 {
 
 /* ------ */
 .footer{    
-    background-color: #222831;
+    background-color: #FDF0E9;
     padding: 50px;
 }
 
@@ -278,12 +281,13 @@ h2 {
     justify-content: space-around;
     font-size: 16px;
     text-align: center;
-    border-bottom: 2px solid white;
-    color: white;
+    border-bottom: 2px solid black;
+    color: black;
+    padding-bottom: 2%;
 }
 
 .column a{
-    color: white;
+    color: black;
     padding: 14px 16px;
     font-size: 17px;
     align-items: center;
@@ -295,7 +299,7 @@ h2 {
 }
 
 .copy{
-    color: white;
+    color: black;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -307,6 +311,13 @@ h2 {
 
 @media screen and (max-width: 700px){
     .column{
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .column img{
         text-align: center;
         justify-content: center;
         flex-direction: column;
