@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Favourite</title>
+    <link rel="stylesheet" type="text/css" href="css/favourite.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/28020802b5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="header">
+            <img src="img/logo.png" alt="" width="5%">
+            <h2>Boo Heng</h2>
+            <div class="topnav" id="myTopnav">
+                <a href="https://cheongbooheng.github.io/assignment/">Home</a>
+                <a href="aboutme.html">About me</a>
+                <a href="homework.html">Homework</a>
+                <a href="#favourite">Favourite</a>
+                <a href="#contact">Contact</a>
+                <a class="icon" onclick="openNav()">&#9776;
+                </a>
+            </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="https://cheongbooheng.github.io/assignment/">Home</a>
+                    <a href="aboutme.html">About me</a>
+                    <a href="homework.html">Homework</a>
+                    <a href="#">Favourite</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+    </div>
+
+    <div class="container2">
+        <h1>Favourite</h1>
+    </div>
+
+    <div class="container3">
+        <div class="title1">
+            <h1>My Favourite Badminton Player</h1>
+        </div>
+        <div class="image1">
+            <img src="img/leenet1.jpeg" alt="" width="45%">
+            <p>Dato' Lee Chong Wei, a Malaysian Chinese athlete, was born in Nan'an County, Fujian Province, and was
+                born in Perak, Malaysia. He is a retired badminton men's singles player, known as "Malaysian Badminton
+                Brother". He also held the world No. 1 position in the men's singles for 349 weeks, the longest record
+                in badminton.</p>
+        </div>
+    </div>
+
+    <div class="container4">
+        <div class="image2">
+            <p>Lee Chong Wei became the sixth Malaysian athlete to win a medal at the Olympics and was awarded the
+                Dato's honor. In 2012, he once again lost to Lin Dan in the London Olympics badminton men's singles to
+                win the silver medal. In 2016, he won the silver medal in the men's singles badminton competition for
+                the third time at the Rio Olympics, and was awarded the title of Datuk Wira.</p>
+            <img src="img/leewin1.jpeg" alt="" width="45%">
+        </div>
+    </div>
+
+    <div class="container5">
+        <div class="image3">
+            <img src="img/lee.jpg" alt="" >
+            <p>Lee Chong Wei's netball very good. When we think that the ball is scored by the opponent, but Lee Chong
+                Wei has his unique tricks to hit the ball back.</p>
+        </div>
+        <div class="image4">
+            <img src="img/leesave.jpg" alt="" >
+            <p>Lee Chong Wei's defense is also very strong. In particular, his diving saves can save the ball to a
+                position that is particularly close to the net.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="column">
+            <img src="img/logo.png" alt="" width="5%">
+            <a href="https://cheongbooheng.github.io/assignment/">Home</a>
+            <a href="aboutme.html">About me</a>
+            <a href="homework.html">Homework</a>
+            <a href="#">Favourite</a>
+            <a href="#">Contact</a>
+            <div class="social">
+                <a href="https://www.facebook.com/booheng/" target="new"><img src="img/facebook.png" alt="" width="20px"></a>
+                <a href="https://www.instagram.com/cheong.heng/" target="new"><img src="img/instagram.png" alt="" width="20px"></a>
+            </div>
+        </div>
+        <div class="copy">
+            <p>Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+            <div class="term">
+                <p id="terms">Terms of Use &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
