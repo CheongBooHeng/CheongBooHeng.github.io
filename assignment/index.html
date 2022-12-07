@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/28020802b5.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jsfile/topnav.js"></script>
 </head>
 
 </html>
@@ -36,32 +37,11 @@
                 </div>
             </div>
         </div>
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-        </script>
-
-
-        <script>
-            function openNav() {
-                document.getElementById("myNav").style.width = "100%";
-            }
-
-            function closeNav() {
-                document.getElementById("myNav").style.width = "0%";
-            }
-        </script>
     </div>
 
     <div class="container2">
         <div class="text">
-            <p id="name">CHEONG BOO HENG</p>
+            <p id="names">CHEONG BOO HENG</p>
             <h2 id="personal">PERSONAL</h2>
             <h2 id="website">WEBSITE</h2>
             <h3 id="newbies">Newbies to Web Design</h3>
@@ -117,22 +97,20 @@
     </div>
 
     <div class="container6">
-        <div class="form">
-            <p id="get">Get In Touch</p>
-            <input type="email" name="mail" placeholder="Your Email"><br><br>
-            <select name="country">
-                <option value="country">Subject</option>
-                <option value="math">AddMath</option>
-                <option value="ai">AI</option>
-                <option value="java">Java</option>
-                <option value="webdesign">Web Design</option>
-            </select>
-            <div class="message">
-                <input type="text" name="message" placeholder="Message">
-            </div>
-            <div class="submit">
-                <a href="#">SUBMIT NOW</a>
-            </div>
+        <div class="contactform">
+            <h2>Get In Touch</h2>
+            <form>
+                <div class="rowname">
+                    <input id="name" type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="rowemail">
+                    <input id="email" type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="rowmessage">
+                    <textarea id="message" name="message" rows="4" placeholder="Message" required=""></textarea>
+                </div>
+                    <button class="buttonsubmit">SUBMIT</button>
+            </form>
         </div>
         <div class="contact">
             <p id="contact">CONTACT</p>

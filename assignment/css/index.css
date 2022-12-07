@@ -153,7 +153,7 @@ h2 {
     padding-top: 60px;
 }
 
-#name {
+#names {
     font-size: 20px;
     color: #EF6D58;
     font-family: 'Epilogue', sans-serif;
@@ -495,51 +495,71 @@ h2 {
 .container6{
     background-color: #222831;
     display: flex;
-    justify-content: space-around;
-    padding: 50px;
+    justify-content: space-evenly;
+    padding: 30px;
 }
 
-.form{
-    border: none;
-    border-radius: 5px;
-    background-color: white;
-    padding: 20px;
-    width: 40%;
-    height: 52%;
-}
-
-.form input {
-    width: 97%;
-    height: 35px;
-}
-
-.form select {
-    width: 99%;
-    height: 35px;
-}
-
-.message {
-    margin-top: 18px;
-}
-
-.submit {
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: end;
-}
-
-.submit a {
-    color: white;
-    background-color: #EF6D58;
-    border: none;
-    padding: 10px 20px;
+.contactform{
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
     border-radius: 10px;
+    border: 1px solid black;
+    padding: 2%;
+    background-color: white;
+    width: 30%;
+}
+
+.contactform h2{
+    text-align: left;
+}
+
+.rowname{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.8% 0;
+}
+
+.rowemail{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.8% 0;
+}
+
+.rowmessage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.8% 0;
+}
+
+#name{
+    width: 100%;
+    height: 30px;
+}
+
+#email{
+    width: 100%;
+    height: 30px;
+}
+
+#message{
+    width: 100%;
+}
+
+.buttonsubmit{
+    font-size: 12px;
+    color: black;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3% 5% 3% 5%;
+    background-color: #FDF0E9;
+    cursor:pointer;
+    margin-top: 3%;
 }
 
 #contact {
@@ -615,30 +635,17 @@ h2 {
         text-align: center;
         justify-content: center;
         flex-direction: column;
-        padding: 50px;
+        padding: 30px;
     }
-
-    .form{
-        margin-left: 14%;
-        justify-content: space-between;
+    .contactform{
+        text-align: center;
+        justify-content: center;
         width: 60%;
-        padding: 20px;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: auto;
+    }
 
-    }
-    .submit {
-        text-align: end;
-        font-size: 20px;
-        margin-top: 10px;
-        
-    }
-    #get{
-        text-align: left;
-    }
-    .detail{
-        text-align: justify;
-        margin-left: 10%;
+    .contact{
+        margin: auto;
     }
 }
 
