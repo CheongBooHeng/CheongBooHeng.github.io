@@ -77,8 +77,6 @@
     text-align: center;
     font-size: 40px;
     color: #5C2000;
-    margin-top: 25px;
-    margin-left: 31%;
 }
 
 .title p {
@@ -90,12 +88,13 @@
 }
 
 .subtitle {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    position: relative;
 }
 
 .subtitle a {
+    position: absolute;
+    right: 5%;
+    top: 0%;
     color: black;
     background-color: white;
     border: none;
@@ -140,6 +139,7 @@
     }
 
     .subtitle a {
+        position: static;
         margin-bottom: 15px;
     }
 
@@ -173,12 +173,13 @@
 }
 
 .subtitle1 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    position: relative;
 }
 
 .subtitle1 a {
+    position: absolute;
+    right: 5%;
+    top: 0%;
     color: black;
     background-color: white;
     border: none;
@@ -193,13 +194,15 @@
 }
 
 .subtitle1 h2 {
+    text-align: center;
     font-size: 40px;
     color: white;
-    margin-top: 25px;
-    margin-left: 23%;
 }
 
 @media screen and (max-width: 700px) {
+    .container4{
+        text-align: center;
+    }
     .subtitle1 {
         flex-direction: column;
         order: 1;
@@ -212,6 +215,7 @@
 
     .subtitle1 a {
         margin-bottom: 15px;
+        position: static;
     }
 
     .image1 {
